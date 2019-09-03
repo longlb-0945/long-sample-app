@@ -1,0 +1,30 @@
+vi:
+  layouts:
+    application:
+      subtitle: Ứng dụng mẫu hướng dẫn Ruby on Rails
+  static_pages:
+    home:
+      home_page: Đây là trang chủ cho
+      sample_application: ứng dụng mẫu
+      title: Trang chủ
+      rails_tut: Hướng dẫn Ruby on Rails
+    contact:
+      title: Liên hệ
+      contact: Liên hệ tới
+      contact_page: trang liên hệ
+    help:
+      title: Trợ giúp
+      get_help: Nhận trợ giúp tại
+      to_get_help: Để nhận trợ giúp tại ứng dụng mẫu, xem tại
+      book: sách
+      help_page: Trang trợ giúp hướng dẫn Rails
+      rails_tut: Hướng dẫn Ruby on Rails
+    about:
+      title: Giới thiệu
+      to_teach: để dạy phát triển web với
+      is_a: là một
+      book: sách
+      ruby: Ruby on Rails
+      and: và
+  vietnam: Tiếng Việt
+  english: Tiếng Anh
