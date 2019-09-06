@@ -2,12 +2,27 @@ en:
   layouts:
     application:
       subtitle: Ruby on Rails Tutorial Sample App
+    footer:
+      the: The
+      rails_tut: Ruby on Rails Tutorial
+      by: by
+      micheal: Michael Hartl
+      about: About
+      contact: Contact
+      news: News
+    header:
+      sample: Sample app
+      home: Home
+      help: Help
+      login: Login
   static_pages:
     home:
       home_page: This is the home page for the
       sample_application: sample application
       title: Home
       rails_tut: Ruby on Rails Tutorial
+      signup: Signup now!
+      welcome: Welcome to the Sample App
     contact:
       title: Contact
       contact: Contact at the
@@ -26,6 +41,10 @@ en:
       book: book
       ruby: Ruby on Rails
       and: and
+  users:
+    new:
+      signup: Signup
+      welcome: This will be a signup page for new users.
   vietnam: Vietnamese
   english: English
   base_title: Ruby on Rails Tutorial sample app

@@ -2,12 +2,27 @@ vi:
   layouts:
     application:
       subtitle: Ứng dụng mẫu hướng dẫn Ruby on Rails
+    footer:
+      the:
+      rails_tut: Hướng dẫn Ruby on Rails
+      by: bởi
+      micheal: Michael Hartl
+      about: Giới thiệu
+      contact: Liên hệ
+      news: Tin tức
+    header:
+      sample: Ứng dụng mẫu
+      home: Trang chủ
+      help: Trợ giúp
+      login: Đăng nhập
   static_pages:
     home:
       home_page: Đây là trang chủ cho
       sample_application: ứng dụng mẫu
       title: Trang chủ
       rails_tut: Hướng dẫn Ruby on Rails
+      signup: Đăng ký ngây bây giờ!
+      welcome: Chào mừng
     contact:
       title: Liên hệ
       contact: Liên hệ tới
@@ -26,6 +41,10 @@ vi:
       book: sách
       ruby: Ruby on Rails
       and: và
+  users:
+    new:
+      signup: Đăng ký
+      welcome: Đây là trang đăng ký cho người dùng mới.
   vietnam: Tiếng Việt
   english: Tiếng Anh
   base_title: Ứng dụng mẫu hướng dẫn Ruby on Rails
