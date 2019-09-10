@@ -1,4 +1,8 @@
 vi:
+  shared:
+    error_messages:
+      contain: Biểu mẫu chứa
+      error: lỗi
   layouts:
     application:
       subtitle: Ứng dụng mẫu hướng dẫn Ruby on Rails
@@ -21,7 +25,7 @@ vi:
       sample_application: ứng dụng mẫu
       title: Trang chủ
       rails_tut: Hướng dẫn Ruby on Rails
-      signup: Đăng ký ngây bây giờ!
+      signup: Đăng ký ngay bây giờ!
       welcome: Chào mừng
     contact:
       title: Liên hệ
@@ -44,7 +48,30 @@ vi:
   users:
     new:
       signup: Đăng ký
-      welcome: Đây là trang đăng ký cho người dùng mới.
+      button: Tạo tài khoản
+      name: Tên đăng nhập
+      email: Email
+      password: Mật khẩu
+      confirmation: Nhập lại mật khẩu
+    create:
+      welcome: Chào mừng đến với Ứng dụng mẫu
+    show:
+      user_not_found: Không tìm thấy người dùng
   vietnam: Tiếng Việt
   english: Tiếng Anh
   base_title: Ứng dụng mẫu hướng dẫn Ruby on Rails
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: không thể để trống
+            email:
+              blank: không thể để trống
+              invalid: không đúng định dạng
+            password:
+              blank: không thể để trống
+              too_short: quá ngắn
+            password_confirmation:
+              blank: không thể để trống

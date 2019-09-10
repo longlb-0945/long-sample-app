@@ -1,4 +1,8 @@
 en:
+  shared:
+    error_messages:
+      contain: The form contains
+      error: error
   layouts:
     application:
       subtitle: Ruby on Rails Tutorial Sample App
@@ -44,7 +48,15 @@ en:
   users:
     new:
       signup: Signup
-      welcome: This will be a signup page for new users.
+      button: Create my account!
+      name: Name
+      email: Email
+      password: Password
+      confirmation: Confirmation
+    create:
+      welcome: Welcome to the Sample App!
+    show:
+      user_not_found: User not found
   vietnam: Vietnamese
   english: English
   base_title: Ruby on Rails Tutorial sample app
