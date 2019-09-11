@@ -19,6 +19,11 @@ vi:
       home: Trang chủ
       help: Trợ giúp
       login: Đăng nhập
+      users: Người dùng
+      account: Tài khoản
+      profile: Thông tin
+      settings: Cài đặt
+      logout: Đăng xuất
   static_pages:
     home:
       home_page: Đây là trang chủ cho
@@ -75,3 +80,12 @@ vi:
               too_short: quá ngắn
             password_confirmation:
               blank: không thể để trống
+  sessions:
+    new:
+      login: Đăng nhập
+      signup: Đăng ký ngay!
+      email: Email
+      password: Mật khẩu
+      newuser: Người dùng mới?
+    create:
+      invalid: Email/mật khẩu không đúng
