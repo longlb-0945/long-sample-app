@@ -87,5 +87,6 @@ vi:
       email: Email
       password: Mật khẩu
       newuser: Người dùng mới?
+      remember: Ghi nhớ tài khoản trên máy tính này
     create:
       invalid: Email/mật khẩu không đúng
