@@ -69,6 +69,7 @@ en:
       email: Email
       password: Password
       newuser: New user?
+      remember: Remember me on this computer
     create:
       invalid: Invalid email/password combination
   vietnam: Vietnamese
