@@ -51,6 +51,7 @@ en:
       ruby: Ruby on Rails
       and: and
   users:
+    login: Please log in
     new:
       signup: Signup
       button: Create my account!
@@ -60,8 +61,26 @@ en:
       confirmation: Confirmation
     create:
       welcome: Welcome to the Sample App!
-    show:
-      user_not_found: User not found
+    user_not_found: User not found
+    edit:
+      title: Edit user
+      update: Update your profile
+      name: Name
+      email: Email
+      password: Password
+      confirmation: Password Confirmation
+      save: Save changes
+      change: change
+    update:
+      update_success: Profile updated
+    index:
+      all: All users
+    user:
+      delete: delete
+      confirm: You sure?
+    destroy:
+      deleted: User deleted
+      delete_failed: Delete failed
   sessions:
     new:
       login: Log in

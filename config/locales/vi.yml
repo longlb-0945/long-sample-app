@@ -51,6 +51,7 @@ vi:
       ruby: Ruby on Rails
       and: và
   users:
+    login: Xin hãy đăng nhập
     new:
       signup: Đăng ký
       button: Tạo tài khoản
@@ -60,8 +61,26 @@ vi:
       confirmation: Nhập lại mật khẩu
     create:
       welcome: Chào mừng đến với Ứng dụng mẫu
-    show:
-      user_not_found: Không tìm thấy người dùng
+    user_not_found: Không tìm thấy người dùng
+    edit:
+      title: Sửả tài khoản
+      update: Cập nhật thông tin của bạn
+      name: Tên đăng nhập
+      email: Email
+      password: Mật khẩu
+      confirmation: Nhập lại mật khẩu
+      save: Lưu thay đổi
+      change: thay đổi
+    update:
+      update_success: Thông tin được cập nhật
+    index:
+      all: Tất cả người dùng
+    user:
+      delete: xóa
+      confirm: Bạn chắc chứ?
+    destroy:
+      deleted: Người dùng đã bị xóa
+      delete_failed: Xóa thất bại
   vietnam: Tiếng Việt
   english: Tiếng Anh
   base_title: Ứng dụng mẫu hướng dẫn Ruby on Rails

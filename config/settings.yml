@@ -6,7 +6,11 @@ rails_screencast_link: "http://screencasts.railstutorial.org/"
 ruby_link: "http://rubyonrails.org/"
 micheal_link: "http://www.michaelhartl.com/"
 news_link: "http://news.railstutorial.org/"
+gravatar_email: "http://gravatar.com/emails"
 email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 maximum_name_length: 50
 maximum_email_length: 255
 minimum_password_length: 8
+user_helper_gravatar: 80
+user_gravatar_size: 50
+pagenate_users: 10
