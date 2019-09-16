@@ -61,6 +61,7 @@ vi:
       confirmation: Nhập lại mật khẩu
     create:
       welcome: Chào mừng đến với Ứng dụng mẫu
+      plscheck: Hãy kiểm tra email để kích hoạt tài khoản.
     user_not_found: Không tìm thấy người dùng
     edit:
       title: Sửả tài khoản
@@ -109,3 +110,16 @@ vi:
       remember: Ghi nhớ tài khoản trên máy tính này
     create:
       invalid: Email/mật khẩu không đúng
+      account_not_activated: Tài khoản chưa được kích hoạt.
+      check_mail: Kiểm tra tài khoản để lấy link kích hoạt
+  user_mailer:
+    account_activation:
+      activation: Kích hoạt tài khoản
+  account_activations:
+    edit:
+      activated: Tài khoản kích hoạt thành công
+      invalid: Link kích hoạt không tồn tại
+  hi: Xin chào,
+  sample_app: Ững dụng mẫu
+  activate: Kích hoạt
+  mail_content: Chào mừng đến với ứng dụng mẫu! Nhấn vào link bên dưới để kích hoạt tài khoản

@@ -61,6 +61,7 @@ en:
       confirmation: Confirmation
     create:
       welcome: Welcome to the Sample App!
+      plscheck: Please check your email to activate your account.
     user_not_found: User not found
     edit:
       title: Edit user
@@ -91,6 +92,19 @@ en:
       remember: Remember me on this computer
     create:
       invalid: Invalid email/password combination
+      account_not_activated: Account not activated.
+      check_mail: Check your email for the activation link
+  user_mailer:
+    account_activation:
+      activation: Account activation
+  account_activations:
+    edit:
+      activated: Account activated!
+      invalid: Invalid activation link
+  hi: Hi,
+  sample_app: Sample App
+  activate: Activate
+  mail_content: Welcome to the Sample App! Click on the link below to activate your account
   vietnam: Vietnamese
   english: English
   base_title: Ruby on Rails Tutorial sample app
