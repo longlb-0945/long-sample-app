@@ -108,6 +108,7 @@ vi:
       password: Mật khẩu
       newuser: Người dùng mới?
       remember: Ghi nhớ tài khoản trên máy tính này
+      forgot: (quên mật khẩu)
     create:
       invalid: Email/mật khẩu không đúng
       account_not_activated: Tài khoản chưa được kích hoạt.
@@ -115,11 +116,33 @@ vi:
   user_mailer:
     account_activation:
       activation: Kích hoạt tài khoản
+    password_reset:
+      reset: Đặt lại mật khẩu
   account_activations:
     edit:
       activated: Tài khoản kích hoạt thành công
       invalid: Link kích hoạt không tồn tại
+  password_resets:
+    new:
+      forgot: Quên mật khẩu
+      email: Email
+      submit: Gửi
+    create:
+      send: Hướng dẫn đặt lại mật khẩu đã được gửi kèm email
+      email_not_found: Email không tồn tại
+    user_not_found: Tài khoản không tồn tại
+    empty_password: Không thể để trống
+    success_reset: Mật khẩu đã được đặt lại.
+    expired: Đặt lại mật khẩu đã quá hạn.
+    user_invalid: Tài khoản chưa xác thực
   hi: Xin chào,
   sample_app: Ững dụng mẫu
   activate: Kích hoạt
   mail_content: Chào mừng đến với ứng dụng mẫu! Nhấn vào link bên dưới để kích hoạt tài khoản
+  reset_mail_click: Để đặt lại mật khẩu, vui lòng click vào link sau
+  reset_mail_expire: Link này sẽ tồn tại trong hai giờ tới.
+  reset_mail_ignore: Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ giữ nguyên.
+  reset_mail_reset: Đặt lại mật khẩu
+  password: Mật khẩu
+  password_confirm: Nhập lại mật khẩu
+  password_update: Cập nhật mật khẩu
