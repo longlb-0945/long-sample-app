@@ -2,10 +2,10 @@ class SessionsController < ApplicationController
   def new; end
 
   def create
-    session = params[:session]
-    user = User.find_by email: session[:email].downcase
-    if user&.authenticate session[:password]
-      if user.activated?
+    @session = params[:session]
+    @user = User.find_by email: @session[:email].downcase
+    if @user&.authenticate @session[:password]
+      if @user.activated?
         login_user_activated
       else
         warn_not_activated
@@ -17,9 +17,9 @@ class SessionsController < ApplicationController
   end
 
   def login_user_activated
-    log_in user
-    session[:remember_me] == "1" ? remember(user) : forget(user)
-    redirect_back_or user
+    log_in @user
+    @session[:remember_me] == Settings.check ? remember(@user) : forget(@user)
+    redirect_back_or @user
   end
 
   def warn_not_activated
