@@ -135,6 +135,21 @@ vi:
     success_reset: Mật khẩu đã được đặt lại.
     expired: Đặt lại mật khẩu đã quá hạn.
     user_invalid: Tài khoản chưa xác thực
+  datetime:
+    distance_in_words:
+      x_minutes: vào %{count} phút
+      x_hours: vào %{count} giờ
+      less_than_x_minutes: dưới %{count} phút
+      less_than_x_hours: dưới %{count} giờ
+      about_x_minutes: khoảng %{count} phút
+      about_x_hours: khoảng %{count} giờ
+  views:
+    pagination:
+      first: "&laquo; đầu"
+      last: "cuối &raquo;"
+      previous: "&lsaquo; trước"
+      next: "tiếp &rsaquo;"
+      truncate: ...
   hi: Xin chào,
   sample_app: Ững dụng mẫu
   activate: Kích hoạt
@@ -146,3 +161,19 @@ vi:
   password: Mật khẩu
   password_confirm: Nhập lại mật khẩu
   password_update: Cập nhật mật khẩu
+  image_valid_size: nên nhỏ hơn 5MB
+  micropost_created: Bài viết được tạo!
+  micropost_deleted: Bài viết đã bị xóa
+  micropost_not_deleted: xóa thất bại
+  micropost_feed: Bảng tin
+  view_profile: xem trang cá nhân
+  compose: Soạn bài viết mới...
+  post: Đăng
+  micropost_alert: Dung lượng tối đa 5MB. Xin chọn file nhẹ hơn.
+  posted: Đã đăng
+  ago: trước
+  delete: xóa
+  micropost_not_found: không tìm thấy bài
+  delete_conf: Bạn chắc không?
+  microposts: Bài viết
+  login: đăng nhập

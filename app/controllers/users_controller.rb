@@ -4,7 +4,10 @@ class UsersController < ApplicationController
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
 
-  def show; end
+  def show
+    @microposts = @user.microposts.create_at_desc.page(params[:page])
+                       .per Settings.pagenate_users
+  end
 
   def index
     @users = User.page(params[:page]).per Settings.pagenate_users
@@ -34,13 +37,6 @@ class UsersController < ApplicationController
     else
       render :edit
     end
-  end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t ".login."
-    redirect_to login_url
   end
 
   def correct_user

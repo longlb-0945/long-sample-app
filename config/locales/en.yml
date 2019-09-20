@@ -131,3 +131,19 @@ en:
   password: Password
   password_confirm: Password confirm
   password_update: Update password
+  image_valid_size: should be less than 5MB
+  micropost_created: Micropost created!
+  micropost_deleted: Micropost deleted
+  micropost_not_deleted: fail to delete micropost
+  micropost_feed: Micropost Feed
+  view_profile: view my profile
+  compose: Compose new micropost...
+  post: Post
+  micropost_alert: Maximum file size is 5MB. Please choose a smaller file.
+  posted: Posted
+  ago: ago
+  delete: delete
+  micropost_not_found: micropost not found
+  delete_conf: You sure?
+  microposts: Microposts
+  login: login
