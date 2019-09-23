@@ -23,3 +23,7 @@ accept_image_type: "image/jpeg,image/gif,image/png"
 image_height: 400
 image_witdh: 400
 feed_pagenate: 10
+stat_gravatar_size: 30
+seed_name: Ly Bao Long
+seed_mail: kaimitamotoji@gmail.com
+seed_pass: 11111111
