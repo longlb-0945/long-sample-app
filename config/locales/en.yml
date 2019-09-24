@@ -147,3 +147,10 @@ en:
   delete_conf: You sure?
   microposts: Microposts
   login: login
+  follow: Follow
+  unfollow: Unfollow
+  following: Following
+  followers: Followers
+  micropost: micropost
+  user_not_found: User not found
+  relationship_not_found: Relationship not found
